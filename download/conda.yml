@@ -1,9 +1,12 @@
-name: download_data
+name: exercise_13
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.8 
+  - numpy=1.23.4
+  - protobuf=3.20.0
   - requests=2.24.0
   - pip=20.3.3
   - pip:
-      - wandb==0.10.21
+      - wandb==0.13.3
